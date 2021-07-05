@@ -85,20 +85,24 @@ os.system('clear')
 
 print """
 
-\033[1;93m              ______     _     _     _ 
-\033[1;93m             |___  /    | |   (_)   | |
-\033[1;93m                / / __ _| |__  _  __| |
-\033[1;93m               / / / _` | '_ \| |/ _` |
-\033[1;93m              / /_| (_| | | | | | (_| |
-\033[1;93m             /_____\__,_|_| |_|_|\__,_|
+
+\033[1;93m  ____  _____   ____   ___   __ __    ___         __  __ __   ____  ____    ____  ____  
+\033[1;93m /    ||     | /    | /   \ |  |  |  /  _]       /  ]|  |  | /    ||    \  /    ||    \ 
+\033[1;93m |  o  ||   __||  o  ||     ||  |  | /  [_       /  / |  |  ||  o  ||  D  )|  o  ||  _  |
+\033[1;93m |     ||  |_  |     ||  Q  ||  |  ||    _]     /  /  |  _  ||     ||    / |     ||  |  |
+\033[1;93m |  _  ||   _] |  _  ||     ||  :  ||   [_     /   \_ |  |  ||  _  ||    \ |  _  ||  |  |
+\033[1;93m |  |  ||  |   |  |  ||     ||     ||     |    \     ||  |  ||  |  ||  .  \|  |  ||  |  |
+\033[1;93m |__|__||__|   |__|__| \__,_| \__,_||_____|     \____||__|__||__|__||__|\_||__|__||__|__|
+                                                                                        
+        
 
 \033[1;91m   ╔═══════════════════════════════════════════╗
 \033[1;93m   |                                           |
-\033[1;92m   |Author:  Muhammad Zahid Mahmood            |
+\033[1;92m   |Author:  Prince AfaQue Charan           |
 \033[1;93m   |                                           |
 \033[1;93m   |Github:  https://github.com/ZahidMahmood786|
 \033[1;93m   |                                           |
-\033[1;93m   |Youtube: Technical Zahid Mahmood           |
+\033[1;93m   |Facebook Follow   https://www.facebook.com/Afaqali1214 |
 \033[1;93m   |                                           |
 \033[1;93m   ╚═══════════════════════════════════════════╝    
 
@@ -106,37 +110,42 @@ print """
 
 logo1 = """
 
-\033[1;95m        ____                    _       
-\033[1;95m       |  _ \                  | |      
-\033[1;95m       | |_) | __ _ _ __   __ _| | __ _ 
-\033[1;95m       |  _ < / _` | '_ \ / _` | |/ _` |
-\033[1;95m       | |_) | (_| | | | | (_| | | (_| |
-\033[1;95m       |____/ \__,_|_| |_|\__, |_|\__,_|.Desh
-\033[1;95m                           __/ |        
-\033[1;95m                          |___/         
+
+\033[1;95m  ____  _____   ____   ___   __ __    ___         __  __ __   ____  ____    ____  ____  
+ \033[1;95m /    ||     | /    | /   \ |  |  |  /  _]       /  ]|  |  | /    ||    \  /    ||    \ 
+\033[1;95m |  o  ||   __||  o  ||     ||  |  | /  [_       /  / |  |  ||  o  ||  D  )|  o  ||  _  |
+\033[1;95m |     ||  |_  |     ||  Q  ||  |  ||    _]     /  /  |  _  ||     ||    / |     ||  |  |
+\033[1;95m |  _  ||   _] |  _  ||     ||  :  ||   [_     /   \_ |  |  ||  _  ||    \ |  _  ||  |  |
+\033[1;95m |  |  ||  |   |  |  ||     ||     ||     |    \     ||  |  ||  |  ||  .  \|  |  ||  |  |
+\033[1;95m |__|__||__|   |__|__| \__,_| \__,_||_____|     \____||__|__||__|__||__|\_||__|__||__|__|
+                                                                                        
+                      
 
 """
 logo= """
 
-\033[1;93m              ______     _     _     _ 
-\033[1;95m             |___  /    | |   (_)   | |
-\033[1;95m                / / __ _| |__  _  __| |
-\033[1;95m               / / / _` | '_ \| |/ _` |
-\033[1;95m              / /_| (_| | | | | | (_| |
-\033[1;93m             /_____\__,_|_| |_|_|\__,_|
-"""
+
+\033(;91m  ____  _____   ____   ___   __ __    ___         __  __ __   ____  ____    ____  ____  
+\033(;92m /    ||     | /    | /   \ |  |  |  /  _]       /  ]|  |  | /    ||    \  /    ||    \ 
+\033(;93m |  o  ||   __||  o  ||     ||  |  | /  [_       /  / |  |  ||  o  ||  D  )|  o  ||  _  |
+\033(;92m |     ||  |_  |     ||  Q  ||  |  ||    _]     /  /  |  _  ||     ||    / |     ||  |  |
+\033(;97m |  _  ||   _] |  _  ||     ||  :  ||   [_     /   \_ |  |  ||  _  ||    \ |  _  ||  |  |
+\033(;99m |  |  ||  |   |  |  ||     ||     ||     |    \     ||  |  ||  |  ||  .  \|  |  ||  |  |
+\033(;98m |__|__||__|   |__|__| \__,_| \__,_||_____|     \____||__|__||__|__||__|\_||__|__||__|__|
+                                                                                        
+
 CorrectCodeWord = 'Smile'
 print '   \x1b[1;93m[🔒🔒🔒] CodeWord Required To Enter [🔒🔒🔒]'
 loop = 'true'
 while loop == 'true':
-    CodeWord = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;91m[🔐] Enter CodeWord\x1b[1;97m: ')
+    CodeWord = raw_input('\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;91m[🔐] Enter CodeWord\x1b[1;97m: ')
     if (CodeWord == CorrectCodeWord):
         print('\n            \x1b[1;92m🔓🔓🔓 Correct Entry 🔓🔓🔓 \n                  ')
         jalan('    \x1b[1;97m•◈•◈•◈•◈• Welcome To Bangla Tool •◈•◈•◈•◈•')
         loop = 'false'
     else:
         print '\x1b[1;91mWrong Entry!'
-        os.system('xdg-open https://www.youtube.com/c/TechnicalZahidMahmood')
+        os.system('xdg-open https://www.youtube.com/c/Matminokar')
 
 def lisensi():
     os.system('clear')
@@ -145,16 +154,16 @@ def login():
     print logo
     os.system('clear')
     print logo
-    print "\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \033[1;93m[1] First Subscribe My Channel"
-    print "\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \033[1;93m[0] Exit"
+    print "\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \033[1;93m[1] First Subscribe My Channel"
+    print "\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \033[1;93m[0] Exit"
     pilih_login()
 def pilih_login():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Afaque@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login()
     elif peak == '1':
-        os.system('xdg-open https://www.youtube.com/c/TechnicalZahidMahmood')
+        os.system('xdg-open https://www.youtube.com/c/Matminokar')
         login1()
     elif peak == '0':
         keluar()
@@ -165,21 +174,21 @@ def pilih_login():
 def login1():
     os.system('clear')
     print logo
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Fast Clone Bangla FB Accounts.'
-    print "\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \033[1;93m[2] Subscribe My Channel"
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Exit The Program.'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Fast Clone Bangla FB Accounts.'
+    print "\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \033[1;93m[2] Subscribe My Channel"
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Exit The Program.'
     pilih_login1()
 
 
 def pilih_login1():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Afaque@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login1()
     elif peak == '1':
         Zk()
     elif peak == '2':
-        os.system('xdg-open https://www.youtube.com/c/TechnicalZahidMahmood')
+        os.system('xdg-open https://www.youtube.com/c/Matminokar')
         login1()
     elif peak == '0':
         keluar()
@@ -191,15 +200,15 @@ def pilih_login1():
 def Zk():
     os.system('clear')
     print logo1
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Start The Process'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Start The Process'
     time.sleep(0.05)
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
     time.sleep(0.05)
     pilih_Zk()
 
 
 def pilih_Zk():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Afaque@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '[!] Fill In Correctly'
         pilih_login1()
@@ -212,14 +221,14 @@ def pilih_Zk():
 def Trypass():
     os.system('clear')
     print logo1
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Try Automatic Passwords'
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[2]\x1b[1;93m Try Your Own Passwords'
-    print '\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Try Automatic Passwords'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[2]\x1b[1;93m Try Your Own Passwords'
+    print '\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
     pilih_Trypass()
 
 
 def pilih_Trypass():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Afaque@] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '[!] Fill In Correctly'
         pilih_Trypass()
@@ -246,7 +255,7 @@ def automatic():
     print '             \x1b[1;97m191,192,193,194,195,196'
     print 50 * '\033[1;94m_'
     try:
-        c = raw_input('\n\x1b[1;93m[\x1b[1;91m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
+        c = raw_input('\n\x1b[1;93m[\x1b[1;91m@Afaque@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
         k = '+880'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -312,7 +321,7 @@ def automatic():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;95m'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Zahid Mahmood ◈◈◈◈◈◈◈◈◈◈◈ '
+    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By AfaQue ChaRan ◈◈◈◈◈◈◈◈◈◈◈ '
     print '[✅] Process Has Been Completed ...'
     print '[✅] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[✅] Cloned Accounts Has Been Saved : cloned/idz.txt'
@@ -334,8 +343,8 @@ def own():
     print 50 * '\033[1;94m_'
     print 50 * '\033[1;94m_'
     try:
-        c = raw_input('\n\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
-        pass1 = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;97mEnter Your Password: \x1b[1;97m')
+        c = raw_input('\n\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
+        pass1 = raw_input('\x1b[1;93m[\x1b[1;92m@Afaque@\033[1;93m] \x1b[1;93m[◈] \x1b[1;97mEnter Your Password: \x1b[1;97m')
         k = '+880'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -353,7 +362,7 @@ def own():
     jalan('\033[1;97m[✅] \x1b[1;97mTotal Numbers: ' + xxx)
     jalan('\x1b[1;97m[✅] \x1b[1;97mTrying Your Password Wait...')
     print 50 * '\x1b[1;95m◈'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Zahid Mahmood ◈◈◈◈◈◈◈◈◈◈◈ '
+    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By AfaQue ChaRan ◈◈◈◈◈◈◈◈◈◈◈ '
 
     def main(arg):
         user = arg
@@ -383,7 +392,7 @@ def own():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;95m'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Zahid Mahmood ◈◈◈◈◈◈◈◈◈◈◈ '
+    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By AfaQue ChaRan ◈◈◈◈◈◈◈◈◈◈◈ '
     print '[✅] Process Has Been Completed ...'
     print '[✅] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[✅] Cloned Accounts Has Been Saved : cloned/idz.txt'
